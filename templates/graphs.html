@@ -9,7 +9,9 @@
 
 
 <body>
-    <a href='home.html'>Home</a>
+<nav>
+    <a href={{ url_for('home') }}>Home</a>
+</nav>
     <h1>Glucose Level Distributions</h1>
     {{ graph1|safe }}
 
