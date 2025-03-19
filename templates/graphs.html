@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualisation</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>  <!-- Ensure Plotly is loaded -->
+</head>
+
+
+<body>
+    <a href='home.html'>Home</a>
+    <h1>Glucose Level Distributions</h1>
+    {{ graph1|safe }}
+
+    <h1>Age vs BMI</h1>
+    {{ graph2|safe }}
+
+    <h1>Blood Pressure Distribution</h1>
+    {{ graph3|safe }}
+
+    <h1>Skin Thickness vs Insulin</h1>
+    {{ graph4|safe }}
+
+    <h1>Pregnancies by Outcome</h1>
+    {{ graph5|safe }}
+</body>
+</html>
